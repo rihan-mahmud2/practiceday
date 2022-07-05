@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.top-hero-section {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+.top-inner-hero-section {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.top-inner-hero-section-left {
+  width: 30%;
+  margin-left: 100px;
+}
+
+.top-inner-hero-section-left h1 {
+  font-size: 50px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-bottom: 50px;
+}
+
+.top-inner-hero-section-left p {
+  font-size: 35px;
+  font-weight: bolder;
+  line-height: 1.1;
+}
+
+.top-inner-hero-section-left a {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: 50px;
+  padding: 15px 20px;
+  background-color: #800080;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 10px;
+}
+
+.top-inner-hero-section-right {
+  width: 50%;
+}
+
+.top-inner-hero-section-right {
+  /* width: 80%; */
+  background-image: url("./images/shapes/Group 8446.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* main hero section starts here */
+
+.main-hero-section {
+  width: 100%;
+  display: flex;
+  background-image: url("./images/shapes/7.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.main-inner-hero-section {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.main-hero-section-right {
+  width: 50%;
+}
+
+.main-hero-section-right img {
+  margin-left: 300px;
+}
+
+.main-hero-section-left {
+  width: 40%;
+}
+
+.main-hero-section-right h1 {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.main-hero-section-right p {
+  line-height: 1.5;
+  font-size: 30px;
+  text-align: justify;
+  margin: 50px;
+}
+
+/* main hero section ends here */
+.last-hero-section {
+  margin-bottom: 50px;
+}
+.card {
+  width: 25%;
+  background-color: #800080;
+  margin: 0 20px;
+}
+
+.img-style {
+  width: 100%;
+  height: 300px;
+}
+
+.last-inner-hero {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  margin: 50px;
+}
+
+.card-title {
+  text-transform: uppercase;
+  text-align: center;
+  margin: 10px;
+}
+
+.card-des {
+  padding: 10px 15px;
+}
+
+.card-container {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+}
+
+.card:hover {
+  box-shadow: 5px 2px 5px black;
+  transition: 1s;
+}
+
+.last2-section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  margin-bottom: 30px;
+  box-shadow: 20px 3px 10px white;
+}
+
+.inner-parts {
+  display: flex;
+  align-items: center;
+  align-content: center;
+
+  margin: 0 auto;
+}
+
+.part {
+  margin: 12px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.part span {
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.part p {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+footer {
+  background-color: black;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  padding: 50px 30px;
+}
